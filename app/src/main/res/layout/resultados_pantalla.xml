@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/home_button3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio" />
+
+    <Button
+        android:id="@+id/anadir_diario_button3"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir diario" />
+
+    <Button
+        android:id="@+id/resultados_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultados"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/ayuda_button3"
+        android:layout_width="91dp"
+        android:layout_height="43dp"
+        android:text="Ayuda"
+        tools:layout_editor_absoluteX="338dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:text="Fecha:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TableLayout
+        android:layout_width="377dp"
+        android:layout_height="422dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="269dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
 </android.support.constraint.ConstraintLayout>
