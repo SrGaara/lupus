@@ -81,34 +81,6 @@
         tools:layout_editor_absoluteX="297dp"
         tools:layout_editor_absoluteY="221dp"/>
 
-    <TableLayout
-        android:layout_width="377dp"
-        android:layout_height="309dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-    </TableLayout>
-
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
@@ -140,4 +112,5 @@
         android:text="Buscar Resultado"
         tools:layout_editor_absoluteX="229dp"
         tools:layout_editor_absoluteY="260dp"/>
+
 </android.support.constraint.ConstraintLayout>

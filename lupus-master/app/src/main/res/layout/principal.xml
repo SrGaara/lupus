@@ -81,4 +81,20 @@
         tools:layout_editor_absoluteX="181dp"
         tools:layout_editor_absoluteY="315dp"/>
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="76dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/searchmagnifierinterfacesymbol_79894"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="152dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Día"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="185dp"/>
+
 </android.support.constraint.ConstraintLayout>
